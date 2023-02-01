@@ -1,6 +1,7 @@
 /*레이아웃*/
 #banner { float: left; width: 100%; height: 900px;}
-#main_timeline { float: left; width: 100%; height: 1350px; background: red; }
+#main_timeline { display: flex; align-items: center; justify-content: center;
+     width: 100%; height: 1350px; background: red; }
 #main_text { display: flex; align-items: center; justify-content: center;
              width: 100%; height: 980px;}
 #main_video { float: left; width: 100%; height: 100%;}
@@ -136,4 +137,10 @@
 
 
 /*타임라인*/
+.left_contents {
+    background: green;
+    float: right;
+}
+.right_contents {
+}
  
