@@ -1,0 +1,77 @@
+* { margin: 0; padding: 0; font-family: 'Kaisei HarunoUmi', sans-serif; }
+ul, li {list-style: none; }
+#header {
+	display: flex;
+	position: fixed; 
+	align-items: center;
+	justify-content: space-between;
+	width: 100%; height: 130px; background: black; z-index: 100;}
+.menu, .hamberger { display: none ;}
+
+html,
+body {
+overflow-y: hidden;
+}
+
+
+/* 헤더 */
+#header #logo {
+	margin-left: 100px;
+	width: 145px; 
+	height: 53px;
+}
+#header #mini_logo {
+	display: none;
+	margin-left: 100px;
+}
+  
+  /* 헤더스크롤 */
+#header.scrolled {
+	height: 70px;
+	opacity: 80%;
+	transition: 0.5s;
+}
+#header.scrolled nav > ul > li > a {
+	line-height: 50px;
+}
+
+  
+
+/*배너 폰트 및 위치*/
+#banner .photo {
+	position: relative;
+}
+#banner .photo .photo_text {
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+	font-size: 40px;
+    letter-spacing: 15px;
+	color: #fff;
+	transition: 4s;
+	opacity: 0;
+}
+#banner .photo .photo_text.active {
+	opacity: 1;
+}
+
+/* 배너 배경화면*/
+#banner .cnt01 {
+	background: url("../img/banner/01.PNG") no-repeat rgba(0, 0, 0, 0.3);
+	background-attachment: fixed;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+#banner .cnt02 {
+	background: url("../img/banner/02.PNG") no-repeat rgba(0, 0, 0, 0.3);
+	background-attachment: fixed;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+#banner .cnt03 {
+	background: url("../img/banner/03.PNG") no-repeat rgba(0, 0, 0, 0.3);
+	background-attachment: fixed;
+	background-position: center;
+	background-blend-mode: multiply;
+}

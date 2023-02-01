@@ -1,0 +1,164 @@
+@media (max-width: 1240px) {
+  /*헤더*/
+  .menu {
+    margin-right: 50px;
+  }
+  nav > ul > li a {
+    margin-right: 50px;
+    font-size: 14px;
+    transition: all 1s;
+  }
+  nav > ul ul > li > a {
+    font-size: 12px;
+    transition: all 1s;
+  }
+
+  /*푸터*/
+  .top_footer_input .solid_box {
+    height: 50px;
+    transition: all 0.5s;
+  }
+  .top_footer_input .dashed_box {
+    height: 40px;
+    transition: all 0.5s;
+  }
+  .top_footer_input .dashed_box input {
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+  .top_footer_input .reservation_button {
+    font-size: 18px;
+    transition: all 0.5s;
+  }
+  #footer #logo {
+    display: none;
+  }
+  #footer #mini_logo {
+    display: block;
+    width: 110px;
+    transition: 1s;
+  }
+  #footer .row_footer{
+    height: 70px;
+    transition: all 1s;
+  }
+  #footer .row_footer .footer_menu li {
+    font-size: 14px;
+    transition: all 1s;
+  }
+}
+
+
+
+
+@media (max-width: 1024px) {
+  /*헤더*/
+  #header #logo {
+    margin-left: 50px;
+    transition: all 1s;
+  }
+  #header #mini_logo {
+    margin-left: 50px;
+    transition: all 1s;
+  }
+  .menu {
+    margin-right: 0px;
+  }
+  nav > ul > li a {
+    margin-right: 50px;
+    font-size: 14px;
+    transition: all .5s;
+  }
+  nav > ul ul > li > a {
+    font-size: 12px;
+    transition: all .5s;
+  }
+
+  /*푸터*/
+  #footer .top_footer {
+    margin: 0 50px;
+    transition: all 0.5s;
+  }
+  #footer .top_footer_reservation {
+    margin: 0px;
+    transition: all 0.5s;
+  }
+  #footer .top_footer_map {
+    margin: 0px;
+    transition: all 0.5s;
+  }
+  .top_footer_input .reservation_button {
+    font-size: 16px;
+    transition: all 0.5s;
+  }
+  #footer #mini_logo {
+    margin: 0;
+  }
+  #footer .row_footer {
+    margin: 0 50px;
+    transition: all 0.5s;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  /*헤더*/
+  #header {
+    height: 70px;
+    transition: all 1s;
+  }
+  .menu {
+    display: none;
+  }
+  #header #logo {
+    display: none;
+  }
+  #header #mini_logo {
+    display: block;
+    margin-left: 50px;
+    transition: all 1s;
+  }
+
+  /*햄버거*/
+  .hamberger {
+    display: block;
+  }
+
+  /*푸터*/
+  #footer .top_footer {
+    display: block;
+    height: 100%;
+  }
+  #footer .top_footer_reservation_text {
+    font-size: 8vw;
+    line-height: 8vw;
+    width: 70vw;
+    height: 20vw;
+    letter-spacing: -2px;
+    margin: 0 auto;
+  }
+  #footer .top_footer_reservation_text .mfy{
+    margin: 0 auto;
+  }
+
+  /*인풋창*/
+  .top_footer_input {
+    margin: 0;
+  }
+  #footer .top_footer_map {
+    margin: 80px 0 30px 0;
+    width: 100%;
+    height: 50vw;
+    transition: all 0.5s;
+  }
+  .top_footer_input .dashed_box input {
+    font-size: 20px;
+  }
+  
+  /*row footer*/
+  #footer .footer_menu {
+    display: none;
+  }
+}

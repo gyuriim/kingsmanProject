@@ -1,0 +1,296 @@
+/*reset*/
+* { margin: 0; padding: 0;}
+#wrap { background-color: black; overflow: hidden;}
+
+ul, li {list-style: none; }
+a, button { text-decoration: none; cursor: pointer;}
+.clearfix::before, .clearfix::after { display: block; content: ''; clear: both;}
+
+/*레이아웃*/
+#wrap { width: 100%; margin: 0 auto; font-family: 'Kaisei HarunoUmi', sans-serif; }
+#header { display: flex; position: fixed; align-items: center; justify-content: space-between;
+          width: 100%; height: 130px; background: black; z-index: 100;}
+#footer { float: left; width: 100%; height: 100%; background: black;}
+
+
+
+/* 헤더 */
+#header #logo {
+  margin-left: 100px;
+  width: 145px; 
+  height: 53px;
+}
+#header #mini_logo {
+  display: none;
+  margin-left: 100px;
+}
+
+/* 헤더스크롤 */
+#header.scrolled {
+  height: 70px;
+  opacity: 80%;
+  transition: 0.5s;
+}
+#header.scrolled nav > ul > li > a {
+  line-height: 50px;
+}
+
+
+/* 메뉴 */
+.menu {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.menu:hover {
+  overflow: visible;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  font-size: 16px;
+  color: #c6a55d;
+  line-height: 130px;
+  position: relative;
+  margin-right: 80px; 
+}
+
+nav > ul > li > a:hover:after {
+  width: 100%;
+  left: 50%; /*left: 50% 에서 0%으로 해주면 가운데에서 벌어지는 밑줄*/
+}
+
+nav > ul ul {
+  position: absolute;
+  padding: 20px 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+/*opacity로 주는 방법*/
+nav > ul:hover ul {
+  opacity: 1;
+}
+
+nav > ul ul > li > a {
+  font-size: 14px;
+  color: #c6a55d;
+  line-height: 30px;
+  position: relative;
+}
+
+nav > ul ul > li > a:hover {
+  color: #ffffff;
+}
+
+nav > ul ul > li > a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 0%;
+  height: 1px;
+  background: #ffffff;
+  transition: 0.5s;
+}
+
+nav > ul ul > li > a:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+
+
+/*햄버거메뉴*/
+.hamberger {
+  display: none;
+  position: absolute;
+  right: 50px;
+  color: white;
+  z-index: 99;
+}
+
+.open {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.overlay {
+  display: flex;
+  position: fixed; 
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color:black;
+  z-index: 99;
+  overflow-x: hidden;
+  transition: 0.5s;
+  width: 0;
+}
+.overlay .overlay ul, .overlay li {
+  list-style: none;
+}
+.overlay .overlay_top_menu {
+  font-size: 30px;
+  padding-top: 30px;
+}
+.overlay .overlay_sub_menu {
+  font-size: 20px;
+  padding-left:20px;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 15%;
+}
+
+.overlay a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #c6a55d;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0rem;
+  right: 50px;
+  font-size: 3rem;
+}
+
+
+
+
+
+
+/*footer 정렬 및 텍스트 */
+#footer .top_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 45.3vw;
+}
+
+#footer .top_footer_reservation {
+  margin-left: 100px;
+}
+
+#footer .top_footer_reservation_text {
+  font-size: 4vw;
+  line-height: 5.2vw;
+  width: 40vw;
+  height: 9.4vw;
+  color: white;
+  margin-bottom: 5vw;
+  letter-spacing: -2px;
+}
+
+#footer .top_footer_reservation_text .mfy{
+  float: left;
+}
+
+#footer .top_footer_reservation_text .jfy{
+  float: left;
+  margin-left: 9.1vw;
+}
+
+/*footer 인풋창*/
+.top_footer_input {
+  margin-left: 8.8vw;
+}
+.top_footer_input .solid_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  border: 1px solid white;
+  margin-bottom: 2vw;
+}
+
+.top_footer_input .dashed_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  height: 60px;
+  border: 1px dashed white;
+}
+
+.top_footer_input .dashed_box input {
+  margin: 20px;
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 25px;
+  color: white;
+  font-family: 'Kaisei HarunoUmi', sans-serif; 
+}
+.top_footer_input .dashed_box input:focus { outline: 0; }
+
+.top_footer_input .reservation_button {
+  float: right;
+  color: white;
+  font-size: 20px;
+  background: none;
+  border: none;
+  font-family: 'Kaisei HarunoUmi', sans-serif; 
+}
+.top_footer_input .reservation_button:hover {
+  color: black;
+  transition: 0.7s;
+  box-shadow: 12.5rem 0 0 0 white inset;
+  border: 0;
+}
+
+/*footer map*/
+#footer .top_footer_map {
+  position: relative;
+  margin-right: 100px;
+  line-height: 870px;
+  width: 36.5vw;
+  height: 31.2vw;
+  background: white;
+}
+#footer .top_footer_map iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*row_footer*/
+#footer .row_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #c6a55d;
+  height: 130px;
+  margin: 0 100px;
+}
+
+#footer #mini_logo {
+  display: none;
+}
+
+#footer .row_footer .footer_menu li {
+  float: left;
+  font-size: 16px;
+  font-family: 'Noto sans kr', sans-serif; 
+}
+
+#footer .row_footer .footer_menu ul li a {
+  color: #c6a55d;
+  padding-left: 60px;
+}
+

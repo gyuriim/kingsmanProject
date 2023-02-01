@@ -1,0 +1,27 @@
+@media (max-width: 1240px) {
+    .main_text_box li {
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding: 4px;
+        transition: 1s;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .main_text_box li {
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding: 4px;
+        transition: 1s;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+}
