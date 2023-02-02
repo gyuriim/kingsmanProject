@@ -1,7 +1,7 @@
 /*레이아웃*/
 #banner { float: left; width: 100%; height: 900px;}
 #main_timeline { display: flex; align-items: center; justify-content: center;
-     width: 100%; height: 1350px; background: red; }
+     width: 100%; height: 1180px; padding-top: 0px;}
 #main_text { display: flex; align-items: center; justify-content: center;
              width: 100%; height: 980px;}
 #main_video { float: left; width: 100%; height: 100%;}
@@ -137,10 +137,98 @@
 
 
 /*타임라인*/
-.left_contents {
-    background: green;
+.hidden_timeline {
+    display: none;
+}
+.timeline_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 980px;
+}
+.timeline {
+    position: relative;
+    height: 980px;
+    width: 60%;
+}
+.left_timeline {
+    text-align: right;
+    margin-right: 30px;
+}
+.timeline_box {
+    margin-left: 40px;
+}
+.timeline ul {
+    list-style: none;
+}
+.timeline ul li {
+    color: white;
+}
+#main_timeline .year {
+    line-height: 90px;
+    font-size: 50px;
+    font-family: 'Constantia', sans-serif;
+}
+#main_timeline .year_text {
+    font-size: 16px;
+    font-family: 'Batang', sans-serif;
+}
+
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 990px;
+    background-color: white;
+}
+.timeline ul li {
+    width: 50%;
+    position: relative;
+    margin-top: 60px;
+
+}
+.timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+}
+.timeline ul li:nth-child(even) {
     float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
 }
-.right_contents {
+.timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+    top: 75px;
 }
- 
+.timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+}
+.timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+}
+
+
+/*타임라인 안 원*/
+
+#main_timeline .circle_one {
+    position: absolute;
+    transform: translate(950%, -50%);
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
