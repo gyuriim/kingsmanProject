@@ -77,4 +77,35 @@ const options = {
 
 
 
+  /*타임라인*/
+  $(document).ready(function () {
+    var mySwiper = new Swiper("#slider", {
+      // Optional parameters
+      direction: "vertical",
+      loop: true,
+      centeredSlides: true,
+      slidesPerView: 6,
+      //slidesPerView:'auto',
+  
+      loopedSlides: 0,
+      spaceBetween: 15,
+      // Navigation arrows
+      nextButton: ".swiper-button-next",
+      prevButton: ".swiper-button-prev",
+      slideToClickedSlide: true,
+      //setWrapperSize: true,
+      //autoResize: false,
+      //visibilityFullFit: true,
+      //cssWidthAndHeight: true,
+      //autoHeight: true,
+      mousewheelControl: true
+  
+      //width: '500',
+      //height: '250'
+    });
+    //  mySwiper.update();
+    $(window).resize(function () {
+      //mySwiper.onResize();
+    });
+  });
   

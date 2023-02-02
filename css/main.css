@@ -146,6 +146,7 @@
     justify-content: center;
     width: 100%;
     height: 980px;
+    margin-top: 200px;
 }
 .timeline {
     position: relative;
@@ -156,6 +157,11 @@
     text-align: right;
     margin-right: 30px;
 }
+.third_left_timeline {
+    text-align: right;
+    margin-right: 80px;
+    color: white;
+}
 .timeline_box {
     margin-left: 40px;
 }
@@ -163,7 +169,7 @@
     list-style: none;
 }
 .timeline ul li {
-    color: white;
+    color: rgb(129, 129, 129);
 }
 #main_timeline .year {
     line-height: 90px;
@@ -200,7 +206,6 @@
     float: right;
     clear: left;
     transform: translateX(30px);
-    border-radius: 0px 20px 20px 20px;
 }
 .timeline ul li::before {
     content: "";
@@ -222,13 +227,39 @@
 
 
 /*타임라인 안 원*/
-
-#main_timeline .circle_one {
+.circle_three{
     position: absolute;
-    transform: translate(950%, -50%);
-
-    height: 50px;
-    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 80px;
+    background-color: black;
+}
+.circle_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: black;
+}
+.circle_one {
+    height: 5px;
+    width: 5px;
     border-radius: 50%;
     background-color: white;
+}
+/*
+.timeline {
+    animation: scroll-up 1s infinite;
+  }
+
+@-webkit-keyframes scroll-up {
+0%   { -webkit-transform: translateY(50%); }
+    100% { -webkit-transform: translateY(-50%); }
 }
