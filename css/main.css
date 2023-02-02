@@ -151,7 +151,7 @@
 .timeline {
     position: relative;
     height: 980px;
-    width: 60%;
+    width: 70%;
 }
 .left_timeline {
     text-align: right;
@@ -235,7 +235,7 @@
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    margin-top: 80px;
+    margin-top: 30px;
     background-color: black;
 }
 .circle_two{
