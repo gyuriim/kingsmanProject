@@ -5,3 +5,5 @@ fetch('../html/footer.html')
 .then(data => footer.innerHTML = data);
 
 
+
+

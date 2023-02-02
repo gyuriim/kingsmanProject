@@ -1,72 +1,15 @@
+input[type="date"]::-webkit-calendar-picker-indicator,
+ input[type="date"]::-webkit-inner-spin-button {
+     display: none;
+     appearance: none;
+ }
 
-* {
-  margin: 0;
-  padding: 0;
-  background: black;
-  box-sizing: border-box;
+ input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0); //숨긴다
+  opacity: 1;
+  display: block;
+  background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat; // 대체할 아이콘
+  width: 20px;
+  height: 20px;
+  border-width: thin;
 }
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.timeline {
-  position: relative;
-}
-
-.timeline ul {
-  list-style: none;
-}
-.timeline ul li {
-  padding: 20px;
-  color: white;
-}
-.timeline ul li:last-child {
-  margin-bottom: 0;
-}
-
-
-.timeline:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 1px;
-  height: 100%;
-  background-color: white;
-}
-.timeline ul li {
-  width: 50%;
-  position: relative;
-  margin-bottom: 50px;
-  
-}
-.timeline ul li:nth-child(odd) {
-  float: left;
-  clear: right;
-  transform: translateX(-30px);
-}
-.timeline ul li:nth-child(even) {
-  float: right;
-  clear: left;
-  transform: translateX(30px);
-  border-radius: 0px 20px 20px 20px;
-}
-.timeline ul li::before {
-  content: "";
-  position: absolute;
-  height: 5px;
-  width: 5px;
-  border-radius: 50%;
-  background-color: white;
-  top: 0px;
-}
-.timeline ul li:nth-child(odd)::before {
-  transform: translate(50%, -50%);
-  right: -30px;
-}
-.timeline ul li:nth-child(even)::before {
-  transform: translate(-50%, -50%);
-  left: -30px;
-}
-

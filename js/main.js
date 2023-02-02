@@ -22,7 +22,8 @@ const options = {
   // 반복문을 돌려 모든 DOM에 적용
   titleList.forEach(el => observer.observe(el));
 
-
+  /*현재날짜*/
+  document.getElementById('#now_date').valueAsDate = new Date();
 
 
 /*마우스 호버*/
