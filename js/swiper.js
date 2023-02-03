@@ -10,7 +10,7 @@
         direction: "vertical",
         loop: true,
         centeredSlides: true,
-        slidesPerView: 6,        
+        slidesPerView: 5,        
     
         loopedSlides: 0,
         spaceBetween: 15,
@@ -36,6 +36,8 @@
         }, 200);
       }
     });
+
+    
 
     /*인스타그램*/
     const swiper = new Swiper('.swiper_01', {

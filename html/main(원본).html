@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 
     <!--css-->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main(원본).css">
     <link rel="stylesheet" href="../css/mq_main.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/mq_common.css">
+
+    <!--지도-->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d6cf06cd91d228d7f9d6dc2b8b1efde9"></script>
+
 
 </head>
 <body>
@@ -32,79 +36,76 @@
         <!--타임라인-->
         <section id="main_timeline">
             <div class="timeline_container">
-                <div class="timeline" id="timeline_swiper">
-                    <ul class="swiper-wrapper">
-                        <li class="swiper-slide visibility-hidden">
-                            <div class="timeline_box">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="left_timeline timeline_box">
                                 <span class="year">1919</span><br>
-                                <span class="year_text">영국 런던 11 Savile Row에<br>Orlando Oxford가양복점 kingsman 설립</span>
-                            </div>                            
-                        </li>
-                        <li class="swiper-slide">                            
-                            <div class="timeline_box left_timeline">
-                                <span class="year">1926</span><br>
-                                <span class="year_text">국왕 에드워드 7세인 웨일스 왕자로부터<br>첫 번째 왕실 영장을 수여 받음</span>
+                                <span class="year_text">영국 런던 11 Savile Row에 Orlando Oxford가 양복점 kingsman 설립</span>
                             </div>
                         </li>
-                        <li class="swiper-slide">
+                        <li>
                             <div class="timeline_box">
+                                <span class="year">1926</span><br>
+                                <span class="year_text">미래의 국왕 에드워드 7세인 웨일스 왕자로부터 첫 번째 왕실 영장을 수여 받음</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="third_left_timeline timeline_box">
                                 <span class="year">1947</span><br>
                                 <span class="year_text">빅토리아 여왕에 대한 왕실 영장을 받음</span>
                             </div>
                         </li>
-                        <li class="swiper-slide">
-                            <div class="timeline_box left_timeline">
+                        <li>
+                            <div class="timeline_box">
                                 <span class="year">1953</span><br>
                                 <span class="year_text">스페인의 알폰소 왕이 회사의 후원자가 됨</span>
                             </div>
                         </li>
-                        <li class="swiper-slide">
-                            <div class="timeline_box">
+                        <li>
+                            <div class="left_timeline timeline_box">
                                 <span class="year">1968</span><br>
-                                <span class="year_text">혁신적인 원 버튼 하우스 스타일을 개척함. 디너 재킷의 우아함과<br>라이딩 코트의 편안함과 실루엣을 결합한 제품</span>
+                                <span class="year_text">혁신적인 원 버튼 하우스 스타일을 개척함. 디너 재킷의 우아함과 라이딩 코트의 편안함과 실루엣을 결합한 제품</span>
                             </div>
                         </li>
-                        <li class="swiper-slide">
-                            
-                            <div class="timeline_box left_timeline">
+                        <li class="hidden_timeline">
+                            <div class="timeline_box">
                                 <span class="year">1982</span><br>
                                 <span class="year_text">잉글랜드 축구팀의 판촉용 기성복 라인의 디자인을 담당함</span>
                             </div>
-                            
                         </li>
-                        <li class="swiper-slide">
-                            <div class="timeline_box">
+                        <li class="hidden_timeline">
+                            <div class="left_timeline timeline_box">
                                 <span class="year">1995</span><br>
-                                <span class="year_text">Alexander McQueen과 협력하여<br>맞춤형 컬렉션을 선보임</span>
+                                <span class="year_text">Alexander McQueen과 협력하여 맞춤형 컬렉션을 선보임</span>
                             </div>
                         </li>
-                        <li class="swiper-slide">
-                            <div class="timeline_box left_timeline">
+                        <li class="hidden_timeline">
+                            <div class="timeline_box">
                                 <span class="year">2003</span><br>
-                                <span class="year_text">가벼운 무게의 7가지 180년대 천으로<br>구성된 1PP컬렉션을 출시함</span>
+                                <span class="year_text">가벼운 무게의 7가지 180년대 천으로 구성된 1PP컬렉션을 출시함</span>
                             </div>
                         </li>
-                        <li class="swiper-slide">
-                            <div class="timeline_box">
+                        <li class="hidden_timeline">
+                            <div class="left_timeline timeline_box">
                                 <span class="year">2010</span><br>
-                                <span class="year_text">Bentley Motorcars와 협력하여<br>소량의 bespoke 의류를 제작함</span>
+                                <span class="year_text">Bentley Motorcars와 협력하여 소량의 bespoke 의류를 제작함</span>
                             </div>
                         </li>
-                        <li class="swiper-slide">
-                            <div class="timeline_box left_timeline">
-                                <span class="year">2018</span><br>
-                                <span class="year_text">뉴질랜드 Saxon Merino 양모를 소싱하여<br>최고의 양모로 평가되는 Infinity 3를 출시함</span>
-                            </div>
-                        </li>
-                        <li class="swiper-slide">
+                        <li class="hidden_timeline">
                             <div class="timeline_box">
-                                <span class="year">2019</span><br>
-                                <span class="year_text">Sothebys와 협력하여<br>Bespoke 라이프스타일 경험 시리즈를 제작함</span>
+                                <span class="year">2018</span><br>
+                                <span class="year_text">뉴질랜드 Saxon Merino 양모를 소싱하여 최고의 양모로 평가되는 Infinity 3를 출시함</span>
                             </div>
-                            <div></div>
                         </li>
-                        <li class="swiper-slide">
-                            <div class="timeline_box left_timeline">
+                        <li class="hidden_timeline">
+                            <div class="left_timeline timeline_box">
+                                <span class="year">2019</span><br>
+                                <span class="year_text">Sothebys와 협력하여 Bespoke 라이프스타일 경험 시리즈를 제작함</span>
+                            </div>
+                        </li>
+                        <li class="hidden_timeline">
+                            <div class="timeline_box">
                                 <span class="year">2021</span><br>
                                 <span class="year_text">Reebok과 혁신적인 콜라보레이션 발표</span>
                             </div>
@@ -137,10 +138,13 @@
         <!--콜렉션-->
         <section id="main_collection">
             <div class="collection_photo">
-                <img src="../img/main_collection/01.png" alt="" id="img_collection_photo">                
+                <img src="../img/main_collection/01.png" alt="" class="collection_photo_01">
+                <img src="../img/main_collection/02.png" alt="" class="collection_photo_02">
+                <img src="../img/main_collection/03.png" alt="" class="collection_photo_03">
+                <img src="../img/main_collection/04.png" alt="" class="collection_photo_04">
             </div>
             <div class="collection_text">
-                <div class="collection_text_box" data-photo="01">
+                <div class="collection_text_box photo_01">
                     <a href="" class="collection_text_box_dashed">
                         <div class="collection_text_box_title">
                             <div class="text_box_product">GRAY BIRD EYE FLANNEL SUIT</div><br>
@@ -148,11 +152,11 @@
                         </div>
                         <div class="collection_text_box_sub">
                             <div class="text_box_designer">HARRY HART</div><br>
-                            <div class="text_box_designer hidden">GALAHAD</div>
+                            <div class="text_box_designer">GALAHAD</div>
                         </div>
                     </a>
                 </div>
-                <div class="collection_text_box"  data-photo="02">
+                <div class="collection_text_box photo_02">
                     <a href="" class="collection_text_box_dashed">
                         <div class="collection_text_box_title">
                             <div class="text_box_product">DRAPERS FLANNELS SUIT</div><br>
@@ -160,11 +164,11 @@
                         </div>
                         <div class="collection_text_box_sub">
                             <div class="text_box_designer">GARY EGGSY UNWIN</div><br>
-                            <div class="text_box_designer hidden">GALAHAD</div>
+                            <div class="text_box_designer">GALAHAD</div>
                         </div>
                     </a>
                 </div>
-                <div class="collection_text_box"  data-photo="03">
+                <div class="collection_text_box photo_03">
                     <a href="" class="collection_text_box_dashed">
                         <div class="collection_text_box_title">
                             <div class="text_box_product">MARINGEVANS STRIPE SUIT</div><br>
@@ -172,11 +176,11 @@
                         </div>
                         <div class="collection_text_box_sub">
                             <div class="text_box_designer">CHESTER KING</div><br>
-                            <div class="text_box_designer hidden">ARTHUR</div>
+                            <div class="text_box_designer">ARTHUR</div>
                         </div>
                     </a>
                 </div>
-                <div class="collection_text_box box_last"  data-photo="04">
+                <div class="collection_text_box box_last photo_04">
                     <a href="" class="collection_text_box_dashed dashed_last">
                         <div class="collection_text_box_title">
                             <div class="text_box_product">HUDDERSFIELD BUCKDALE SUIT</div><br>
@@ -184,7 +188,7 @@
                         </div>
                         <div class="collection_text_box_sub">
                             <div class="text_box_designer">HAMISH MYCROFT</div><br>
-                            <div class="text_box_designer hidden">MERLIN</div>
+                            <div class="text_box_designer">MERLIN</div>
                         </div>
                     </a>
                 </div>
@@ -255,10 +259,16 @@
     <script src="../js/main.js"></script>
     <script src="../js/header.js"></script>
     <script src="../js/footer.js"></script>
+    <script src="../js/locator.js"></script>
+
 
     <!--스와이퍼 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="../js/swiper.js"></script>
-    
+
+
+
+
+    </script>
 </body>
 </html>
