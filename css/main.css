@@ -1,12 +1,19 @@
 /*레이아웃*/
-#banner { float: left; width: 100%; height: 900px;}
-#main_timeline { display: flex; align-items: center; justify-content: center;
-     width: 100%; height: 1180px; padding-top: 0px;}
+#banner { width: 100%; height: 900px;}
+#main_timeline { 
+    display: flex; align-items: center; justify-content: center;
+     width: 100%; height: 1180px; padding-top: 0px;
+     -webkit-user-select:none;
+     -moz-user-select:none;
+     -ms-user-select:none;
+     user-select:none;
+}
+.overflow-hidden { overflow: hidden; }
 #main_text { display: flex; align-items: center; justify-content: center;
              width: 100%; height: 980px;}
 #main_video { float: left; width: 100%; height: 100%;}
 #main_collection { display: flex; align-items: center; justify-content: center;
-                    width: 100%; height: 1180px;}
+                    width: 100%; height: 100%;}
 #main_insta{ float: left; width: 100%; height: 1200px;}
 
 
@@ -58,7 +65,53 @@
 }
 
 
+div.timeline {
+    overflow: hidden;
+}
+section#main_timeline li {
+    display: grid;
+    grid-template-columns: 1fr 10px 1fr;
+    grid-template-rows: auto;
+}
+
+section#main_timeline li.swiper-slide {
+    transition: all .8s;
+}
+
+section#main_timeline li.swiper-slide-active {
+    color: white;
+}
+
+.timeline ul li:nth-child(odd)::after {
+    content: "";
+    justify-self: center;    
+    align-self: center;
+    grid-column: 2/3;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;    
+}
+
+.timeline ul li:nth-child(even)::before {
+    content: "";
+    justify-self: center;    
+    align-self: center;
+    grid-column: 2/3;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;    
+}
+
+section#main_timeline li div.left {
+    grid-column: 1/2;
+}
+
+
 /*콜렉션 사진*/
+.collection_photo #img_collection_photo { width: 480px; height: 745px; margin: 0;}
+
 .collection_photo {
     float: left;
     margin: 0 120px;
@@ -66,20 +119,18 @@
 }
 .collection_photo img {
     text-align: center;
-    width: 25vw;
 }
-.collection_photo_02, .collection_photo_03, .collection_photo_04 {
-    display: none;
-}
-
 /*콜렉션 사진 호버*/
-.photo_01:hover, .photo_02:hover, .photo_03:hover, .photo_04:hover{
+.collection_text_box:hover{
     background-color: #a09486;
 }
 
 
 
 /*콜렉션 텍스트*/
+.collection_text {
+    margin: 20.8vw 0;
+}
 .collection_text_box {
     float: right;
     display: flex; 
@@ -137,26 +188,23 @@
 
 
 /*타임라인*/
-.hidden_timeline {
-    display: none;
+.visibility-hidden {
+    visibility: hidden;
 }
 .timeline_container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 980px;
+    height: 750px;
     margin-top: 200px;
 }
 .timeline {
     position: relative;
-    height: 980px;
+    height: 750px;
     width: 70%;
 }
-.left_timeline {
-    text-align: right;
-    margin-right: 30px;
-}
+
 .third_left_timeline {
     text-align: right;
     margin-right: 80px;
@@ -168,7 +216,8 @@
 .timeline ul {
     list-style: none;
 }
-.timeline ul li {
+.timeline ul li {   
+    width: 100% !important; 
     color: rgb(129, 129, 129);
 }
 #main_timeline .year {
@@ -191,13 +240,9 @@
     height: 990px;
     background-color: white;
 }
-.timeline ul li {
-    width: 50%;
-    position: relative;
-    margin-top: 60px;
 
-}
-.timeline ul li:nth-child(odd) {
+
+/* .timeline ul li:nth-child(odd) {
     float: left;
     clear: right;
     transform: translateX(-30px);
@@ -206,24 +251,9 @@
     float: right;
     clear: left;
     transform: translateX(30px);
-}
-.timeline ul li::before {
-    content: "";
-    position: absolute;
-    height: 5px;
-    width: 5px;
-    border-radius: 50%;
-    background-color: white;
-    top: 75px;
-}
-.timeline ul li:nth-child(odd)::before {
-    transform: translate(50%, -50%);
-    right: -30px;
-}
-.timeline ul li:nth-child(even)::before {
-    transform: translate(-50%, -50%);
-    left: -30px;
-}
+} */
+
+
 
 
 /*타임라인 안 원*/
