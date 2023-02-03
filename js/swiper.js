@@ -10,7 +10,7 @@
         direction: "vertical",
         loop: true,
         centeredSlides: true,
-        slidesPerView: 5,        
+        slidesPerView: 6,        
     
         loopedSlides: 0,
         spaceBetween: 15,
@@ -37,7 +37,7 @@
       }
     });
 
-    
+
 
     /*인스타그램*/
     const swiper = new Swiper('.swiper_01', {
@@ -65,7 +65,7 @@
       slidesPerView: 2,
       spaceBetween: 440,
       freeMode: true,
-      speed : 9000,
+      speed : 5000,
 
       autoplay: {
         delay: 0, 
@@ -91,5 +91,24 @@
       },
     });
 
+
+    /*
+    new Swiper('.swiper_04', {
+      direction: 'vertical',
+      loop: true, 
+      //mousewheel: true,마우스휠기능//
+
+
+      slidesPerView: 1,
+      spaceBetween: -100,
+      freeMode: true,
+      speed : 50,
+
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+      },
+    });
+    */
 
 })();

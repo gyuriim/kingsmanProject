@@ -14,7 +14,7 @@
 #main_video { float: left; width: 100%; height: 100%;}
 #main_collection { display: flex; align-items: center; justify-content: center;
                     width: 100%; height: 100%;}
-#main_insta{ float: left; width: 100%; height: 1200px;}
+#main_insta{ float: left; width: 100%; height: 100%;}
 
 
 
@@ -182,14 +182,20 @@ section#main_timeline li div.left {
     width: 29vw;
     height: 62.5vw;
 }
+.swiper_04 {
+    display: none;
+}
 .swiper_02 {
     margin: 0 20px;
+    width: 35.5vw;
     height: 62.5vw;
 }
 .swiper_01 img, .swiper_03 img {
     width: 100%;
 }
-
+.swiper_02 img {
+    width: 100%;
+}
 
 /*타임라인*/
 .visibility-hidden {
