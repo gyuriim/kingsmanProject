@@ -10,7 +10,7 @@
         direction: "vertical",
         loop: true,
         centeredSlides: true,
-        slidesPerView: 6,        
+        slidesPerView: 5,        
     
         loopedSlides: 0,
         spaceBetween: 15,
@@ -37,9 +37,6 @@
       }
     });
 
-
-
-    /*인스타그램*/
     const swiper = new Swiper('.swiper_01', {
         direction: 'vertical',
         loop: true, 
@@ -91,24 +88,5 @@
       },
     });
 
-
-    /*
-    new Swiper('.swiper_04', {
-      direction: 'vertical',
-      loop: true, 
-      //mousewheel: true,마우스휠기능//
-
-
-      slidesPerView: 1,
-      spaceBetween: -100,
-      freeMode: true,
-      speed : 50,
-
-      autoplay: {
-        delay: 0,
-        disableOnInteraction: false,
-      },
-    });
-    */
 
 })();

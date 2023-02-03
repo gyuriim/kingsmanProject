@@ -216,7 +216,7 @@ section#main_timeline li div.left {
 }
 .left_timeline {
     text-align: right;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 /*
 .third_left_timeline {
@@ -225,7 +225,7 @@ section#main_timeline li div.left {
     color: white;
 }*/
 .timeline_box {
-    margin-left:50px;
+    margin-left:70px;
 }
 .timeline ul {
     list-style: none;
