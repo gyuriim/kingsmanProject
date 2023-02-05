@@ -8,7 +8,7 @@ a, button { text-decoration: none; cursor: pointer;}
 
 /*레이아웃*/
 #reservation { display: flex; align-items: center;
-         width: 100%; height: 100%; background: green;}
+         width: 100%; height: 100%;}
 
 
 .reser_photo img {
@@ -22,12 +22,14 @@ a, button { text-decoration: none; cursor: pointer;}
 .reser_text {
     float: right;
     margin-left: 8vw;
-    background: yellow;
+    margin-top: 320px;
 }
 .reser_text_box {
+    color: white;
     text-align: left;
     font-size: 16px;
-}
+    line-height: 25px;
+} 
 .reser_text_box .reser_text_box_title {
     font-size: 18px;
     font-weight: bold;
