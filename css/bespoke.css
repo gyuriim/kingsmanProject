@@ -1,0 +1,513 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {background: #EAEBE5;}
+p {font-family: 'Noto Sans KR', sans-serif;}
+h1 {font-family: 'Kaisei HarunoUmi', serif;}
+h2 {font-family: 'Kaisei HarunoUmi', serif;}
+#container>header {
+  width: 100%;
+  height: 130px;
+  background-color:antiquewhite;
+}
+.page {
+  width: 100%;
+  height: 40.1042vw;
+  display: flex;
+  justify-content: center;
+  padding: 0px 7.8125vw 0px 7.8125vw;
+}
+.page>.imagebox>.titlebox {
+  width: 26.0417vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.page>.imagebox>.titlebox>.title {
+  line-height: 90%;
+  font-size: 5.7292vw;
+  color: #60554A;
+  position: relative;
+}
+.page>.imagebox>.titlebox>.t1 {
+  top: 10vw;
+  left: 1vw;
+}
+.page>.imagebox>.titlebox>.t2 {
+  top: 10vw;
+  left: 5vw;
+}
+.page>.imagebox {
+  width: 47.3958vw;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.page>.imagebox>.imgbox{
+  width: 21.3542vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page>.imagebox>.imgbox>.dashedbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21.3542vw;
+  height: 31.2500vw;
+  border-radius: 50%;
+  border: 3px dashed #60554A;
+}
+.page>.imagebox>.imgbox>.dashedbox>.mainimgbox {
+  width: 19.5313vw;
+  height: 29.2708vw;
+  border-radius: 50%;
+  background-image: url('https://contents.sixshop.com/thumbnails/uploadedFiles/117129/default/image_1581782507348_500.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.page>.textbox {
+  width: 28.2292vw;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.page>.textbox>.content {
+  font-size: 1.0417vw;
+  margin: 0px 0px 6.7708vw 20px;
+  color: #60554A;
+}
+.linebox {
+  display: flex;
+}
+.linebox>.line {
+  width: 87.7604vw;
+  height: 1px;
+  margin: 32px 0px 0px 2.0833vw;
+  background: #60554A;
+}
+.linebox>img {
+  margin: 0px 10px;
+  cursor : pointer;
+}
+.bespoke {
+  color: #60554A;
+  margin: 20.8333vw 0px 0px 0px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.step01{
+  width: 100%;
+  height: 48.1771vw;
+  display: flex;
+  flex-direction: column;
+  margin: 140px 0px 130px 0px;
+  padding: 0px 7.8125vw 0px 7.8125vw;
+}
+.step01>.titlebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 230%;
+}
+.step01>.titlebox>.h2title {
+  font-size: 25px;
+  color: #60554A;
+}
+.step01>.titlebox>.h1title {
+  font-size: 60px;
+  padding-bottom: 20px;
+  color: #60554A;
+}
+.step01>.contentbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.step01>.contentbox>.textbox {
+  width: 51%;
+  height: 100%;
+  display: flex;
+}
+.step01>.contentbox>.textbox>.tbox {
+  width: 98%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.step01>.contentbox>.textbox>.tbox>.tcontent>.title {
+  color: #60554A;
+  font-size: 2.0833vw;
+  margin-bottom: 1.8229vw;
+}
+.step01>.contentbox>.textbox>.tbox>.tcontent>.content {
+  color: #60554A;
+  font-size: 1.05vw;
+  padding-right: 6vw;
+  margin-bottom: 1.8229vw;
+}
+.step01>.contentbox>.textbox>.tbox>.tline {
+  width: 100%;
+  height: 2px;
+  margin: 0px 0px 7.0313vw 0px;
+  background-image: url('../img/점선\ 비스포크.jpg');
+}
+.step01>.contentbox>.textbox>.line {
+  width: 2px;
+  height: 42.1875vw;
+  margin: 20px 0px 0px 0px;
+  background: #60554A;
+}
+.step01>.contentbox>.imagebox {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+.step01>.contentbox>.imagebox>.imgbox1 {
+  width: 30vw;
+  height: 30vw;
+  margin-bottom: 11.1979vw;
+  border: 2px solid #60554A;
+  background-color:transparent;
+}
+.step01>.contentbox>.imagebox>.imgbox2 {
+  width: 30vw;
+  height: 30vw;
+  background: #000;
+  position: absolute;
+  bottom: 9.1146vw;
+  right: 2.0833vw;
+}
+
+.step02 {
+  width: 100%;
+  height: 48.1771vw;
+  display: flex;
+  flex-direction: column;
+  margin: 140px 0px 130px 0px;
+  padding: 0px 7.8125vw 0px 7.8125vw;
+}
+.step02>.titlebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 230%;
+}
+.step02>.titlebox>.h2title {
+  color: #60554A;
+  font-size: 25px;
+}
+.step02>.titlebox>.h1title {
+  color: #60554A;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+.step02>.contentbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.step02>.contentbox>.imagebox {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+.step02>.contentbox>.imagebox>.imgbox1 {
+  width: 30vw;
+  height: 30vw;
+  border: 2px solid #60554A;
+  margin: 0px 0px 11.1979vw 2.0833vw;
+  background-color: transparent;
+}
+.step02>.contentbox>.imagebox>.imgbox2 {
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  margin-bottom: 9.1146vw;
+  background: #000;
+}
+.step02>.contentbox>.textbox {
+  width: 51%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.step02>.contentbox>.textbox>.linebox {
+  width: 2%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.step02>.contentbox>.textbox>.linebox>.line {
+  width: 2px;
+  height: 42.1875vw;
+  margin: 20px 0px 0px 1px;
+  background: #60554A;
+}
+.step02>.contentbox>.textbox>.tbox {
+  width: 98%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.step02>.contentbox>.textbox>.tbox>.tcontent>.title {
+  color: #60554A;
+  font-size: 2.0833vw;
+  padding-left: 6vw;
+  margin-bottom: 1.8229vw;
+}
+.step02>.contentbox>.textbox>.tbox>.tcontent>.content {
+  color: #60554A;
+  font-size: 1.05vw;
+  padding-left: 6vw;
+  margin-bottom: 1.8229vw;
+}
+.step02>.contentbox>.textbox>.tbox>.tline {
+  width: 100%;
+  height: 2px;
+  margin: 0px 0px 7.0313vw 0px;
+  background-image: url('../img/점선\ 비스포크.jpg');
+}
+#image1 {
+  background-image: url('https://contents.sixshop.com/thumbnails/uploadedFiles/117129/default/image_1581783406754_2500.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image2 {
+  background-image: url('https://henrypoole.com/wp-content/uploads/2018/10/03-Simon-Cundey-HenryPoole-SF-trunk-show-credit-Geoffrey-Ward-Photography-732x1024.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image3 {
+  background-image: url('https://henrypoole.com/wp-content/uploads/2018/10/Henry-Poole-Tailors-Savile-Row-Bespoke-Process-Step-2-600x516.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image4 {
+  background-image: url('https://henrypoole.com/wp-content/uploads/2018/10/Henry-Poole-Tailors-Savile-Row-Bespoke-Process-Step-6-600x516.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image5 {
+  background-image: url('https://henrypoole.com/wp-content/uploads/2018/09/bespoke-process-4-600x515.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image6 {
+  background-image: url('https://henrypoole.com/wp-content/uploads/2018/10/Henry-Poole-Tailors-Savile-Row-Bespoke-Process-Step-5-600x516.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image7 {
+  background-image: url('https://henrypoole.com/wp-content/uploads/2018/10/10-Will-Smith-HenryPoole-SF-trunk-show-credit-Geoffrey-Ward-Photography-768x960.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image8 {
+  background-image: url('https://henrypoole.com/wp-content/uploads/2018/10/Henry-Poole-Tailors-Savile-Row-Bespoke-Process-Step-8-600x516.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image9 {
+  background-image: url('https://i.vimeocdn.com/video/1097684788-5ecc900ec1ff906fc833d4de2c523dc13b86b6d6aebff0d99654f01b59e5a295-d?mw=600&mh=600');
+  background-size: cover;
+  background-position: center;
+}
+footer {
+  width: 100%;
+  height: 1000px;
+  background-color: aliceblue;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page>.imagebox>.titlebox>.title {
+    font-size: 6.8426vw;
+  }
+  .page>.textbox>.content {
+    font-size: 1.3685vw;
+    margin: 0px 0px 4.8876vw 20px;
+  }
+  .step01>.contentbox>.textbox>.tbox>.tcontent>.title {
+    font-size: 2.7370vw;
+  }
+  .step01>.contentbox>.textbox>.tbox>.tcontent>.content {
+    font-size: 1.3685vw;
+  }
+  .step02>.contentbox>.textbox>.tbox>.tcontent>.title {
+    font-size: 2.7370vw;
+  }
+  .step02>.contentbox>.textbox>.tbox>.tcontent>.content {
+    font-size: 1.3685vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .page {
+    height: 281.2500vw;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+  }
+  .page>.imagebox {
+    width: 100%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .page>.imagebox>.titlebox {
+    width: 100%;
+    height: 30%;
+    align-items: flex-start;
+  }
+  .page>.imagebox>.titlebox>.title {
+    font-size: 21.8750vw;
+  }
+  .page>.imagebox>.titlebox>.t1 {
+    top: 0vw;
+    left: 3vw;
+  }
+  .page>.imagebox>.titlebox>.t2 {
+    top: 0vw;
+    left: 16vw;
+  }
+  .page>.imagebox>.imgbox {
+    width: 100%;
+    height: 100%;
+    padding: 0px 7.8125vw 0px 7.8125vw;
+  }
+  .page>.imagebox>.imgbox>.dashedbox {
+    width: 81.2500vw;
+    height: 125.0000vw;
+  }
+  .page>.imagebox>.imgbox>.dashedbox>.mainimgbox {
+    width: 71.8750vw;
+    height: 115.6250vw;
+  }
+  .page>.textbox {
+    width: 100%;
+    height: 40%;
+    align-items: flex-start;
+    padding: 0px 7.8125vw 0px 7.8125vw;
+  }
+  .page>.textbox>.content {
+    font-size: 5.0000vw;
+    margin: 0px 0px 0px 0px;
+    color: #60554A;
+  }
+  .step01 {
+    height: 250.0000vw;
+    margin: 15.6250vw 0px 15.6250vw 0px;
+  }
+  .step01>.titlebox {
+    padding-bottom: 20px;
+  }
+  .step01>.contentbox {
+    flex-direction: column-reverse;
+  }
+  .step01>.contentbox>.textbox {
+    width: 100%;
+    height: 60%;
+  }
+  .step01>.contentbox>.textbox>.tbox {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .step01>.contentbox>.textbox>.tbox>.tcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .step01>.contentbox>.textbox>.tbox>.tcontent>.title {
+    font-size: 6.2500vw;
+    margin: 9.3750vw 0px 9.3750vw 0px;
+  }
+  .step01>.contentbox>.textbox>.tbox>.tcontent>.content {
+    font-size: 5.0000vw;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 9.3750vw;
+  }
+  .step01>.contentbox>.textbox>.line {
+    display: none;
+  }
+  .step01>.contentbox>.imagebox {
+    width: 100%;
+    height: 40%;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .step01>.contentbox>.imagebox>.imgbox1 {
+    width: 80vw;
+    height: 80vw;
+  }
+  .step01>.contentbox>.imagebox>.imgbox2 {
+    width: 80vw;
+    height: 80vw;
+    right: 4.6875vw;
+    top: 4.6875vw;
+    bottom: 0;
+  }
+  .step02 {
+    height: 250.0000vw;
+    margin: 15.6250vw 0px 15.6250vw 0px;
+  }
+  .step02>.contentbox>.textbox>.linebox {
+    display: none;
+  }
+  .step02>.titlebox {
+    padding-bottom: 20px;
+  }
+  .step02>.contentbox {
+    flex-direction: column;
+  }
+  .step02>.contentbox>.textbox {
+    width: 100%;
+    height: 60%;
+  }
+  .step02>.contentbox>.textbox>.tbox {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .step02>.contentbox>.textbox>.tbox>.tcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .step02>.contentbox>.textbox>.tbox>.tcontent>.title {
+    font-size: 6.2500vw;
+    padding: 0px 0px 0px 0px;
+    margin: 9.3750vw 0px 9.3750vw 0px;
+  }
+  .step02>.contentbox>.textbox>.tbox>.tcontent>.content {
+    font-size: 5.0000vw;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 9.3750vw;
+  }
+  .step02>.contentbox>.imagebox {
+    width: 100%;
+    height: 40%;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .step02>.contentbox>.imagebox>.imgbox1 {
+    width: 80vw;
+    height: 80vw;
+  }
+  .step02>.contentbox>.imagebox>.imgbox2 {
+    width: 80vw;
+    height: 80vw;
+    right: 4.6875vw;
+    top: 4.6875vw;
+    bottom: 0;
+  }
+}
