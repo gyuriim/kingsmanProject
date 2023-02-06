@@ -19,10 +19,10 @@
 
     // Initializing the titles slider
     var titles = [
-        'Colin Andrew Firth<div class="name">Master Tailor</div>',
-        'Taron David Egerton <div class="name">Style Adviser</div>',
-        'Michael Caine <div class="name">Master Tailor</div>',
-        'Mark Strong <div class="name">Style Adviser</div>'
+        'Harry Hart<div class="name">Master Tailor</div>',
+        'Gary Eggsy Unwin<div class="name">Style Adviser</div>',
+        'Chester king<div class="name">Master Tailor</div>',
+        'Hamish Mycroft<div class="name">Style Adviser</div>'
     ];
     var msTitles = new MomentumSlider({
         el: slidersContainer,
