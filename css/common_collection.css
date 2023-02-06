@@ -8,7 +8,7 @@ a, button { text-decoration: none; cursor: pointer;}
 
 /*레이아웃*/
 #wrap { width: 100%; margin: 0 auto; font-family: 'Kaisei HarunoUmi', sans-serif; }
-#header { display: flex;  align-items: center; justify-content: space-between;
+#header { display: flex; position: sticky;  align-items: center; justify-content: space-between;
           width: 100%; height: 10%; background: black; z-index: 100;}
 #footer { float: left; width: 100%; height: 100%; background: black;}
 
