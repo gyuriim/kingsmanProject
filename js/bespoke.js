@@ -1,0 +1,1 @@
+gsap.form('h2', { y: 20, opacity: 0, duration: 1 });
