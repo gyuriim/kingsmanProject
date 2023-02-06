@@ -18,6 +18,8 @@ a, button { text-decoration: none; cursor: pointer;}
     margin-left: 180px;
     margin-top: 25vh;
     margin-bottom: 150px;
+    filter: brightness(60%);
+    
 }
 .reser_text {
     float: right;
