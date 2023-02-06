@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{font-family: 'Noto sans kr light', sans-serif; }
+.blank {
+    height: 130px;
+}
+
+.grid_cell {
+    padding: 30px 100px 30px 100px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    /* grid-template-rows: repeat(5 , 1fr); */
+    grid-gap: 30px;
+}
+.grid_cell li{
+ list-style: none;  
+ 
+}
+.cell{
+    display:block;
+    margin-bottom: 70px;
+}
+
+
+.img-box{
+    margin-bottom: 20px;
+}
+
+
+/* img 사이즈 자동으로 조정 */
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* .image {
+    width: 20vw;
+    height: 21.8vw;
+    object-fit: cover;
+} */
+
+.product-name{
+   text-align: right;
+   margin-right: 10px;
+}
+
+
+ .product-price{
+    text-align: right;
+    margin-right: 10px;
+    font-size: medium;
+}
+
+
+.list{
+   
+    width:100%;
+}
+
+.list3{
+    text-align: right;
+   margin-right: 100px;
+}
+.dnjswl{
+    margin-left: 160px;
+    margin-top: 50px;
+    font-family: 'ChosunGs';
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.list4{
+    margin-left: 110px;
+}
