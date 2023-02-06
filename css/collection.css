@@ -22,12 +22,8 @@ html {
   height: 100vh;
   background: #EAEBE5;
 }
-header {
-  width: 100%;
-  height: 10%;
-  background: #60554A;
-}
 main {
+  margin-top: 200px;
   width: 100%;
   height: 90%;
 }
@@ -139,6 +135,7 @@ main {
   padding-bottom: 10px;
   padding-right: 50px;
   font-family: 'Noto Sans KR', sans-serif;
+  text-align: justify;
 }
 .contentbox>.carouselbox {
   width: 100%;
