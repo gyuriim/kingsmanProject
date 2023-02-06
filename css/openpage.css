@@ -75,3 +75,17 @@ overflow-y: hidden;
 	background-position: center;
 	background-blend-mode: multiply;
 }
+
+
+
+/*버튼*/
+.go_bnt {
+	margin-top: 50px;
+}
+.go_bnt_text {
+	color: white;
+	font-size: 14px;
+	letter-spacing: 0px;
+	opacity: 1;
+
+}
