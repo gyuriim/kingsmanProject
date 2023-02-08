@@ -13,7 +13,6 @@ a, button { text-decoration: none; cursor: pointer;}
 #footer { float: left; width: 100%; height: 100%; background: black;}
 
 
-
 /* 헤더 */
 #header #logo {
   margin-left: 100px;
@@ -310,7 +309,7 @@ nav > ul ul > li > a:hover:after {
   width: 50px;
   height: 50px;
 }
-
+#modal {display: none;}
 #modal.modal-overlay {
   position: fixed;
   right: 0;

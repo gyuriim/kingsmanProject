@@ -36,12 +36,6 @@ function init2() {
     closeBtn.addEventListener("click", e => {
         modalOff()
     })
-   
-    window.addEventListener("keyup", e => {
-        if(isModalOn() && e.key === "Escape") {
-            modalOff()
-        }
-    })
 }
 
 
