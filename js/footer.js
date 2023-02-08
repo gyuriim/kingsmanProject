@@ -36,17 +36,16 @@ function init2() {
     closeBtn.addEventListener("click", e => {
         modalOff()
     })
-}
 
-
-
-
+    /*오늘날짜*/
+    document.getElementById('currentDate').value = new Date().toISOString().substring(0, 10);;
+    
     /*채팅창*/
     const chatBox = document.querySelector('#chat-box');
     const input = document.querySelector('#input');
     const send = document.querySelector('#send');
     console.log(chatBox)
-
+    
     send.addEventListener('click', sendMyText);
     function sendMyText() {
     const newMessage = input.value;
@@ -58,22 +57,27 @@ function init2() {
     } else {
         alert('메시지를 입력하세요...');
     }
-
+    
     input.value = '';
     }
-
+    
     function sendMyTextByEnter (e) {
     if (e.key === 'Enter' && !e.shiftKey) {
         sendMyText();
         e.preventDefault();
     }
     }
-
+    
     input.addEventListener('keypress', sendMyTextByEnter);
 
+    
+}
 
 
-    /*오늘날짜*/
-    document.getElementById('currentDate').value = new Date().toISOString().substring(0, 10);;
+
+
+
+
+
 
 })();
