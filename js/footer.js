@@ -47,34 +47,39 @@ function init2() {
 
 
 
-/*모달2*/
-const chatBox = document.querySelector('#chat-box');
-const input = document.querySelector('#input');
-const send = document.querySelector('#send');
-console.log(chatBox)
+    /*채팅창*/
+    const chatBox = document.querySelector('#chat-box');
+    const input = document.querySelector('#input');
+    const send = document.querySelector('#send');
+    console.log(chatBox)
 
-send.addEventListener('click', sendMyText);
-function sendMyText() {
-  const newMessage = input.value;
-  if (newMessage) {
-    const div = document.createElement('div');
-    div.classList.add('bubble', 'my-bubble');
-    div.innerText = newMessage;
-    chatBox.append(div);
-  } else {
-    alert('메시지를 입력하세요...');
-  }
+    send.addEventListener('click', sendMyText);
+    function sendMyText() {
+    const newMessage = input.value;
+    if (newMessage) {
+        const div = document.createElement('div');
+        div.classList.add('bubble', 'my-bubble');
+        div.innerText = newMessage;
+        chatBox.append(div);
+    } else {
+        alert('메시지를 입력하세요...');
+    }
 
-  input.value = '';
-}
+    input.value = '';
+    }
 
-function sendMyTextByEnter (e) {
-  if (e.key === 'Enter' && !e.shiftKey) {
-    sendMyText();
-    e.preventDefault();
-  }
-}
+    function sendMyTextByEnter (e) {
+    if (e.key === 'Enter' && !e.shiftKey) {
+        sendMyText();
+        e.preventDefault();
+    }
+    }
 
-input.addEventListener('keypress', sendMyTextByEnter);
+    input.addEventListener('keypress', sendMyTextByEnter);
+
+
+
+    /*오늘날짜*/
+    document.getElementById('currentDate').value = new Date().toISOString().substring(0, 10);;
 
 })();
