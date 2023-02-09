@@ -70,7 +70,27 @@ function init2() {
     
     input.addEventListener('keypress', sendMyTextByEnter);
 
+
+
+     /*예약창*/
+     function popup(e) {
+         
+         let reser_name = document.querySelector("#reser_name");  //텍스트의 id값을 받는다
+         let reser_phone = document.querySelector("#reser_phone"); 
+         let reser_date = document.querySelector("#reser_date"); 
+         if (textBox != null)         
+          {
+          alert(textBox.value + "님 안녕하세염");     //텍스트박스의 value를 받아서 알람
+          }
     
+     }
+
+      
+        
+
+
+
+
 }
 
 

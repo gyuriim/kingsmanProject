@@ -14,7 +14,9 @@
   <link rel="stylesheet" href="../css/mq_main.css">
   <link rel="stylesheet" href="../css/common.css">
   <link rel="stylesheet" href="../css/mq_common.css">
-  
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
 
     <!--헤더-->
     <header id="header"></header>
-    
+
     <main>
       <div class="page1">
         <div class="page_title">
@@ -32,44 +34,52 @@
         </div>
       </div>
       <div class="ch1">
-        <div class="textbox">
+        <div class="textbox" data-aos="fade-right" data-aos-offset="200" data-aos-delay="10" data-aos-duration="2000"
+          data-aos-easing="linear" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
           <h1 class="title">
-            England, the home of suits
+            the unique style of England
           </h1>
           <p class="content">
-            1919년 설립 후, 영국 왕실에 옷을 제공하여 인정받았습니다. 영국 고유의 스타일과 장인 정신이 만나 세심한 접근 방식으로 고객의 니즈에 맞는 맞춤 정장을 테일러링합니다. 최근에는  맞춤형 테일러링 프로세스를 제공하고 있으며, 고객이 원하는 변화를 수용하는 동시에 전통적인 가치를 유지하고 있습니다.
+            1919년 설립 후, 영국 왕실에 옷을 제공하여 인정받았습니다. 영국 고유의 스타일과 장인 정신이 만나 세심한 접근 방식으로 고객의 니즈에 맞는 맞춤 정장을 테일러링합니다. 최근에는 맞춤형
+            테일러링 프로세스를 제공하고 있으며, 고객이 원하는 변화를 수용하는 동시에 전통적인 가치를 유지하고 있습니다.
             저희 숍의 미래 가치는 시대를 초월한 스타일을 제공하고 고객에게 평생 지속되는 맞춤형 정장을 제공합니다.
           </p>
           <div class="linebox">
             <div class="line"></div>
             <h1 class="linetitle">
-              England, the home of suits
+              the unique style of England
             </h1>
           </div>
         </div>
-        <div class="img">
+        <div class="img" data-aos="slide-right" data-aos-offset="200" data-aos-delay="10" data-aos-duration="2000"
+          data-aos-easing="Ease-out-Cubic" data-aos-mirror="true" data-aos-once="false"
+          data-aos-anchor-placement="top-center">
           <div class="imgbox"></div>
         </div>
       </div>
       <div class="ch2">
-        <div class="img">
+        <div class="img" data-aos="slide-left" data-aos-offset="200" data-aos-delay="10" data-aos-duration="2000"
+          data-aos-easing="Ease-out-Cubic" data-aos-mirror="true" data-aos-once="false"
+          data-aos-anchor-placement="top-center">
           <div class="imgbox"></div>
         </div>
-        <div class="textbox">
-          <h1 class="title">Quality Vision</h1>
+        <div class="textbox" data-aos="fade-right" data-aos-offset="200" data-aos-delay="10" data-aos-duration="2000"
+          data-aos-easing="linear" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
+          <h1 class="title">reasonable price and fabric</h1>
           <p class="content">
-            믿을 수 있는 원단 브랜드의 정품 원단과 고급 부자재 그리고 한땀 한땀 수작업으로 정성스럽게 완성하여 가격에 부합하는 ‘변함없는 가치’의 비스포크 수트를 고집합니다.
+            믿을 수 있는 원단 브랜드의 정품 원단과 가격으로 한땀 한땀 수작업으로 정성스럽게 완성하여 가격에 부합하는 ‘변함없는 가치’의 비스포크 수트를 고집합니다.
           </p>
           <div class="linebox">
             <div class="line"></div>
-            <h1 class="linetitle">Quality Vision</h1>
+            <h1 class="linetitle">reasonable price and fabric</h1>
           </div>
         </div>
       </div>
       <div class="ch3">
-        <div class="textbox">
+        <div class="textbox" data-aos="fade-right" data-aos-offset="200" data-aos-delay="10" data-aos-duration="2000"
+          data-aos-easing="linear" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
           <h1 class="title">
-            Design is Option, Fit is Fact
+            Customer Data Foundation
           </h1>
           <p class="content">
             오랫동안 이루어진 고객님들의 사이즈 데이터로 고객님들의 나이대와 체형별로 나누어 분석하여 마스터 테일러와 스타일 어드바이저가 한 팀이 되어 고객에게 최적의 핏을 제안해 드립니다.
@@ -79,11 +89,13 @@
           <div class="linebox">
             <div class="line"></div>
             <h1 class="linetitle">
-              Design is Option, Fit is Fact
+              Customer Data Foundation
             </h1>
           </div>
         </div>
-        <div class="img">
+        <div class="img" data-aos="slide-right" data-aos-offset="200" data-aos-delay="-50" data-aos-duration="2000"
+          data-aos-easing="Ease-out-Cubic" data-aos-mirror="true" data-aos-once="false"
+          data-aos-anchor-placement="top-center">
           <div class="imgbox"></div>
         </div>
       </div>
@@ -97,7 +109,9 @@
   <script src="../js/main.js"></script>
   <script src="../js/header.js"></script>
   <script src="../js/footer.js"></script>
-  
+  <script>
+    AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+  </script>
 </body>
 
 </html>

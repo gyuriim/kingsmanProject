@@ -8,6 +8,9 @@ body { background: #000; }
 .content{ font-family: 'noto sans kr light'; text-align: justify; }
 .title, .linetitle{ font-family: 'Kaisei HarunoUmi', sans-serif; }
 
+
+
+
 #container {
   width: 100%;
   height: 100%;
@@ -26,7 +29,49 @@ body { background: #000; }
   justify-content: center;
   align-items: center;
   color: white;
+  
+  animation: fadein 10s;
+  -moz-animation: fadein 10s; /* Firefox */
+  -webkit-animation: fadein 10s; /* Safari and Chrome */
+  -o-animation: fadein 10s; /* Opera */
+
 }
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+
 .page_title>.page_title1{
   font-size: 60px;
   margin-left: -50%;

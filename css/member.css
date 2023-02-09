@@ -66,10 +66,10 @@
   background-image: url("https://p4.wallpaperbetter.com/wallpaper/1014/899/712/movie-kingsman-the-secret-service-taron-egerton-wallpaper-preview.jpg");
 }
 .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-  background-image: url("/image/Arthur-member.jpg");
+  background-image: url("../image/Arthur-member.jpg");
 }
 .ms--images .ms-slide:nth-child(4) .ms-slide__image {
-  background-image: url("/image/member.jpg");
+  background-image: url("../image/member.jpg");
 }
 .ms--images .ms-slide__image-container {
   width: 100%;

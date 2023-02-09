@@ -46,6 +46,7 @@
         range: [0, 3],
         rangeContent: function () {
             return '<div class=name2><a class="ms-slide__link" href="/html/member_sub.html">more</a></div>';
+            //../html/member.html
         },
         vertical: true,
         interactive: false

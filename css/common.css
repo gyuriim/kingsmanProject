@@ -301,7 +301,7 @@ nav > ul ul > li > a:hover:after {
   right: 30px;
   width: 50px;
   height: 50px;
-  z-index: 100;
+  z-index: 10;
   background: none;
   border: none;
 }
@@ -314,7 +314,7 @@ nav > ul ul > li > a:hover:after {
   position: fixed;
   right: 0;
   bottom: 0;
-  z-index: 99;
+  z-index: 81;
 }
 #modal .modal-window {
   width: 400px;
