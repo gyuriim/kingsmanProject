@@ -1,19 +1,12 @@
-body{    
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.contents_01{
-    display: flex; align-items: center; justify-content: center;
-    height: 100vh;
+.topContainer{
+    display: flex;
 }
 .chief{
-    width: 750px;
-    margin: 30px;
+    margin: 70px;
     float:left;
+    
 }
 .name{
-    margin-top: 50px;
     margin-bottom: 20px;
 }
 .content{
@@ -25,17 +18,41 @@ body{
 }
 .top{
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+
 }
 .country{
     margin-bottom: 40px;
 }
-.img-box {
-    width: 50vw;
-    height:100vh;
-    float: left;
-    }
 .img-box img{
-    height: 850px;
-float: left;
+    margin: 40px;
+    max-width: 700px;
+    width: 700px;
+	height: 600px;
+    border: 30px;
+	float: right;
+    padding-left: 50px;
+}
+
+.container {
+    margin: 30px;
+    justify-content: center;
+    display:grid;
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(150px, auto); 
+    grid-gap: 20px;
+}
+
+.item{
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* line */
+.page-line {
+    width: 500px;
+    height: 1px;
+    background-color: black;
 }

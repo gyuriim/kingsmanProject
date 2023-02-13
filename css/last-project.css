@@ -4,20 +4,21 @@
     font-weight: normal;
     font-style: normal;
 }
-*{font-family: 'Kaisei HarunoUmi', 'Noto sans kr light', sans-serif;}
-.blank {
-    height: 130px;
+
+
+body{
+    background-color: FFFEFB;
 }
 
-.grid_cell {
-    padding: 30px 100px 30px 100px;
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    /* grid-template-rows: repeat(5 , 1fr); */
-    grid-gap: 30px;
+.container {
+    padding: 30px 40px 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
-.grid_cell li{
- list-style: none;  
+.container li{
+ list-style: none;
+ margin: 50px;
  
 }
 .cell{
@@ -26,14 +27,16 @@
 }
 
 
-.img-box{
+.img-box:hover{
     margin-bottom: 20px;
+    position: relative;
+    
 }
 
 
 /* img 사이즈 자동으로 조정 */
-.img-fluid{
-    width: 100%;
+.jb-b{
+    max-width: 100%;
     height: auto;
 }
 
@@ -79,3 +82,26 @@
 .list4{
     margin-left: 110px;
 }
+
+.hover-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.jb-a {
+    width: 400px;
+    margin: 0px auto;
+    position: relative
+  }
+  .jb-c {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+  .jb-a:hover .jb-c {
+    opacity: 1;
+  }

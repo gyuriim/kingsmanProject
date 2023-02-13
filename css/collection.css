@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Kaisei HarunoUmi', sans-serif;
+  font-family: "Kaisei HarunoUmi", sans-serif;
 }
 html {
   width: 100%;
@@ -20,7 +20,7 @@ html {
 #container {
   width: 100%;
   height: 100vh;
-  background: #EAEBE5;
+  background: #eaebe5;
 }
 main {
   width: 100%;
@@ -36,14 +36,14 @@ main {
 .accordionHeader {
   width: 4.6875vw;
   float: left;
-  background: #EAEBE5;
+  background: #eaebe5;
   height: 100%;
   cursor: pointer;
   padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  border-left: 1px solid #60554A;
+  border-left: 1px solid #60554a;
 }
 
 .accordionHeader.ch2 {
@@ -59,10 +59,10 @@ main {
 .accordionHeader h2 {
   transform: rotate(-90deg);
   white-space: nowrap;
-  font-family: 'Kaisei HarunoUmi', serif;
+  font-family: "Kaisei HarunoUmi", serif;
 }
 .accordionContent {
-  background: #EAEBE5;
+  background: #eaebe5;
   width: 0;
   height: 100%;
   float: left;
@@ -70,7 +70,7 @@ main {
   display: flex;
 }
 .accordionContent.active {
-  width: calc(100% - 18.7500vw);
+  width: calc(100% - 18.75vw);
 }
 
 .imagebox {
@@ -80,40 +80,40 @@ main {
   justify-content: center;
   align-items: center;
 }
-.imagebox>.bgbox {
-  width: 25.0000vw;
+.imagebox > .bgbox {
+  width: 25vw;
   height: 35.4167vw;
   border-radius: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #D2D4C8;
+  background: #d2d4c8;
   overflow: hidden;
 }
-.imagebox>.bgbox>.mainbox {
-  width: 18.7500vw;
+.imagebox > .bgbox > .mainbox {
+  width: 18.75vw;
   height: 29.1667vw;
   background-size: cover;
   background-position: center;
 }
-.ch1>.imagebox>.bgbox>.mainbox {
-  background-image: url('../img/컬렉션\ 1.png');
+.ch1 > .imagebox > .bgbox > .mainbox {
+  background-image: url("../img/컬렉션\ 1.png");
 }
-.ch2>.imagebox>.bgbox>.mainbox {
-  background-image: url('../img/컬렉션\ 2.png');
+.ch2 > .imagebox > .bgbox > .mainbox {
+  background-image: url("../img/컬렉션\ 2.png");
 }
-.ch3>.imagebox>.bgbox>.mainbox {
-  background-image: url('../img/컬렉션\ 3.png');
+.ch3 > .imagebox > .bgbox > .mainbox {
+  background-image: url("../img/컬렉션\ 3.png");
 }
-.ch4>.imagebox>.bgbox>.mainbox {
-  background-image: url('../img/컬렉션\ 4.png');
+.ch4 > .imagebox > .bgbox > .mainbox {
+  background-image: url("../img/컬렉션\ 4.png");
 }
 .contentbox {
   width: 60%;
   height: 100%;
   padding-bottom: 70px;
 }
-.contentbox>.textbox {
+.contentbox > .textbox {
   width: 100%;
   height: 60%;
   padding: 0px 50px;
@@ -121,146 +121,146 @@ main {
   flex-direction: column;
   justify-content: flex-end;
 }
-.contentbox>.textbox>h2 {
+.contentbox > .textbox > h2 {
   font-size: 20px;
-  font-family: 'Kaisei HarunoUmi', serif;
+  font-family: "Kaisei HarunoUmi", serif;
 }
-.contentbox>.textbox>h1 {
+.contentbox > .textbox > h1 {
   font-size: 50px;
   padding-bottom: 20px;
-  font-family: 'Kaisei HarunoUmi', serif;
+  font-family: "Kaisei HarunoUmi", serif;
 }
-.contentbox>.textbox>p {
+.contentbox > .textbox > p {
   font-size: 15px;
   padding-bottom: 10px;
   padding-right: 50px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
-.contentbox>.carouselbox {
+.contentbox > .carouselbox {
   width: 100%;
   height: 40%;
 }
 
 .swiper-slide.ch1_0 {
-  background-image: url('../img/ch1_0.jpg');
+  background-image: url("../img/ch1_0.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch1_1 {
-  background-image: url('../img/ch1_1.jpg');
+  background-image: url("../img/ch1_1.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch1_2 {
-  background-image: url('../img/ch1_2.jpg');
+  background-image: url("../img/ch1_2.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch1_3 {
-  background-image: url('../img/ch1_3.jpg');
+  background-image: url("../img/ch1_3.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch1_4 {
-  background-image: url('../img/ch1_4.jpg');
+  background-image: url("../img/ch1_4.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch1_5 {
-  background-image: url('../img/ch1_5.jpg');
+  background-image: url("../img/ch1_5.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .swiper-slide.ch2_0 {
-  background-image: url('../img/ch2_0.jpg');
+  background-image: url("../img/ch2_0.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch2_1 {
-  background-image: url('../img/ch2_1.jpg');
+  background-image: url("../img/ch2_1.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch2_2 {
-  background-image: url('../img/ch2_2.jpg');
+  background-image: url("../img/ch2_2.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch2_3 {
-  background-image: url('../img/ch2_3.jpg');
+  background-image: url("../img/ch2_3.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch2_4 {
-  background-image: url('../img/ch2_4.jpg');
+  background-image: url("../img/ch2_4.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch2_5 {
-  background-image: url('../img/ch2_5.jpg');
+  background-image: url("../img/ch2_5.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .swiper-slide.ch3_0 {
-  background-image: url('../img/ch3_0.jpg');
+  background-image: url("../img/ch3_0.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch3_1 {
-  background-image: url('../img/ch3_1.jpg');
+  background-image: url("../img/ch3_1.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch3_2 {
-  background-image: url('../img/ch3_2.jpg');
+  background-image: url("../img/ch3_2.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch3_3 {
-  background-image: url('../img/ch3_3.jpg');
+  background-image: url("../img/ch3_3.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch3_4 {
-  background-image: url('../img/ch3_4.jpg');
+  background-image: url("../img/ch3_4.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch3_5 {
-  background-image: url('../img/ch3_5.jpg');
+  background-image: url("../img/ch3_5.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .swiper-slide.ch4_0 {
-  background-image: url('../img/ch4_0.jpg');
+  background-image: url("../img/ch4_0.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch4_1 {
-  background-image: url('../img/ch4_1.jpg');
+  background-image: url("../img/ch4_1.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch4_2 {
-  background-image: url('../img/ch4_2.jpg');
+  background-image: url("../img/ch4_2.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch4_3 {
-  background-image: url('../img/ch4_3.jpg');
+  background-image: url("../img/ch4_3.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch4_4 {
-  background-image: url('../img/ch4_4.jpg');
+  background-image: url("../img/ch4_4.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch4_5 {
-  background-image: url('../img/ch4_5.jpg');
+  background-image: url("../img/ch4_5.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -281,7 +281,7 @@ main {
     height: 50px;
     padding: 10px 0px;
     border-left: 0px;
-    border-top: 1px solid #60554A;
+    border-top: 1px solid #60554a;
   }
   .accordionContent {
     width: 100%;
@@ -302,7 +302,6 @@ main {
     padding: 10px 0px;
   }
 
-
   .accordionHeader h2 {
     transform: rotate(-360deg);
   }
@@ -315,11 +314,11 @@ main {
     height: 50%;
     overflow: hidden;
   }
-  .imagebox>.bgbox {
+  .imagebox > .bgbox {
     width: 43.0108vw;
     height: 62.5611vw;
   }
-  .imagebox>.bgbox>.mainbox {
+  .imagebox > .bgbox > .mainbox {
     width: 31.2805vw;
     height: 50.8309vw;
   }
@@ -328,17 +327,17 @@ main {
     height: 50%;
     overflow: hidden;
   }
-  .contentbox>.textbox {
-    height: 40%;
+  .contentbox > .textbox {
+    height: 50%;
     padding: 0px 100px;
     justify-content: center;
   }
-  .contentbox>.textbox>p {
+  .contentbox > .textbox > p {
     padding-right: 0px;
   }
-  .contentbox>.carouselbox {
+  .contentbox > .carouselbox {
     width: 100%;
-    height: 60%;
+    height: 50%;
   }
 }
 @media (min-width: 361px) and (max-width: 767px) {
@@ -357,7 +356,7 @@ main {
     height: 50px;
     padding: 10px 0px;
     border-left: 0px;
-    border-top: 1px solid #60554A;
+    border-top: 1px solid #60554a;
   }
   .accordionContent {
     width: 100%;
@@ -391,11 +390,11 @@ main {
     height: 50%;
     overflow: hidden;
   }
-  .imagebox>.bgbox {
+  .imagebox > .bgbox {
     width: 57.3664vw;
     height: 88.6571vw;
   }
-  .imagebox>.bgbox>.mainbox {
+  .imagebox > .bgbox > .mainbox {
     width: 46.9361vw;
     height: 73.0117vw;
   }
@@ -404,23 +403,23 @@ main {
     height: 50%;
     overflow: hidden;
   }
-  .contentbox>.textbox {
-    height: 50%;
+  .contentbox > .textbox {
+    height: 60%;
     padding: 0px 30px;
     justify-content: center;
   }
-  .contentbox>.textbox>h2 {
+  .contentbox > .textbox > h2 {
     font-size: 18px;
   }
-  .contentbox>.textbox>h1 {
+  .contentbox > .textbox > h1 {
     font-size: 40px;
   }
-  .contentbox>.textbox>p {
+  .contentbox > .textbox > p {
     padding-right: 0px;
   }
-  .contentbox>.carouselbox {
+  .contentbox > .carouselbox {
     width: 100%;
-    height: 50%;
+    height: 40%;
   }
 }
 @media (min-width: 320px) and (max-width: 360px) {
@@ -439,7 +438,7 @@ main {
     height: 50px;
     padding: 10px 0px;
     border-left: 0px;
-    border-top: 1px solid #60554A;
+    border-top: 1px solid #60554a;
   }
   .accordionContent {
     width: 100%;
@@ -471,35 +470,35 @@ main {
     height: 40%;
     overflow: hidden;
   }
-  .imagebox>.bgbox {
-    width: 87.5000vw;
-    height: 150.0000vw;
+  .imagebox > .bgbox {
+    width: 87.5vw;
+    height: 150vw;
   }
-  .imagebox>.bgbox>.mainbox {
-    width: 75.0000vw;
-    height: 118.7500vw;
+  .imagebox > .bgbox > .mainbox {
+    width: 75vw;
+    height: 118.75vw;
   }
   .contentbox {
     width: 100%;
     height: 60%;
     overflow: hidden;
   }
-  .contentbox>.textbox {
-    height: 50%;
+  .contentbox > .textbox {
+    height: 60%;
     padding: 0px 20px;
     justify-content: center;
   }
-  .contentbox>.textbox>h2 {
+  .contentbox > .textbox > h2 {
     font-size: 18px;
   }
-  .contentbox>.textbox>h1 {
+  .contentbox > .textbox > h1 {
     font-size: 40px;
   }
-  .contentbox>.textbox>p {
+  .contentbox > .textbox > p {
     padding-right: 0px;
   }
-  .contentbox>.carouselbox {
+  .contentbox > .carouselbox {
     width: 100%;
-    height: 50%;
+    height: 40%;
   }
 }
