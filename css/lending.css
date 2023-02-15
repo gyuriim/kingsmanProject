@@ -5,7 +5,10 @@
 .bullet_01 img {
 	width: 200px;
 	height: 200px;
-	animation-delay: 1s;
+	animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
 }
 .bullet_02 img {
 	width: 200px;
@@ -22,8 +25,8 @@
 
 
 .scale-up-center {
-	-webkit-animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	-webkit-animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 /* ----------------------------------------------
@@ -58,4 +61,7 @@
 			  transform: scale(1);
 	}
   }
+  
+
+
   
