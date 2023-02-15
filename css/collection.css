@@ -34,6 +34,9 @@ main {
   margin: 0 auto;
 }
 .accordionHeader {
+  letter-spacing: 2px;
+  font-weight: 550;
+  font-size: 20px;
   width: 4.6875vw;
   float: left;
   background: #eaebe5;
@@ -47,7 +50,7 @@ main {
 }
 
 .accordionHeader.ch2 {
-  padding: 214px 0;
+  padding: 208px 0;
 }
 .accordionHeader.ch3 {
   padding: 138px 0;
@@ -56,10 +59,11 @@ main {
   padding: 165px 0;
 }
 
-.accordionHeader h2 {
+.accordion-title {
   transform: rotate(-90deg);
   white-space: nowrap;
   font-family: "Kaisei HarunoUmi", serif;
+  float: left;
 }
 .accordionContent {
   background: #eaebe5;
@@ -96,17 +100,18 @@ main {
   background-size: cover;
   background-position: center;
 }
+
 .ch1 > .imagebox > .bgbox > .mainbox {
-  background-image: url("../img/컬렉션\ 1.png");
+  background-image: url("../img//bespoke/컬렉션01.png");
 }
 .ch2 > .imagebox > .bgbox > .mainbox {
-  background-image: url("../img/컬렉션\ 2.png");
+  background-image: url("../img//bespoke/컬렉션02.png");
 }
 .ch3 > .imagebox > .bgbox > .mainbox {
-  background-image: url("../img/컬렉션\ 3.png");
+  background-image: url("../img/bespoke/컬렉션03.png");
 }
 .ch4 > .imagebox > .bgbox > .mainbox {
-  background-image: url("../img/컬렉션\ 4.png");
+  background-image: url("../img/bespoke/컬렉션04.png");
 }
 .contentbox {
   width: 60%;
@@ -121,20 +126,25 @@ main {
   flex-direction: column;
   justify-content: flex-end;
 }
-.contentbox > .textbox > h2 {
+.contentbox > .textbox > .title1 {
   font-size: 20px;
+  line-height: 0px;
+  margin-left: 5px;
+  font-weight: 500;
   font-family: "Kaisei HarunoUmi", serif;
 }
-.contentbox > .textbox > h1 {
+.contentbox > .textbox > .title2 {
   font-size: 50px;
   padding-bottom: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
   font-family: "Kaisei HarunoUmi", serif;
 }
 .contentbox > .textbox > p {
   font-size: 15px;
   padding-bottom: 10px;
-  padding-right: 50px;
   font-family: "Noto Sans KR", sans-serif;
+  text-align: justify;
 }
 .contentbox > .carouselbox {
   width: 100%;
@@ -142,125 +152,125 @@ main {
 }
 
 .swiper-slide.ch1_0 {
-  background-image: url("../img/ch1_0.jpg");
+  background-image: url("../img/bespoke/ch1_0.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch1_1 {
-  background-image: url("../img/ch1_1.jpg");
+  background-image: url("../img/bespoke/ch1_1.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch1_2 {
-  background-image: url("../img/ch1_2.jpg");
+  background-image: url("../img/bespoke/ch1_2.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch1_3 {
-  background-image: url("../img/ch1_3.jpg");
+  background-image: url("../img/bespoke/ch1_3.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch1_4 {
-  background-image: url("../img/ch1_4.jpg");
+  background-image: url("../img/bespoke/ch1_4.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch1_5 {
-  background-image: url("../img/ch1_5.jpg");
+  background-image: url("../img/bespoke/ch1_5.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .swiper-slide.ch2_0 {
-  background-image: url("../img/ch2_0.jpg");
+  background-image: url("../img/bespoke/ch2_0.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch2_1 {
-  background-image: url("../img/ch2_1.jpg");
+  background-image: url("../img/bespoke/ch2_1.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch2_2 {
-  background-image: url("../img/ch2_2.jpg");
+  background-image: url("../img/bespoke/ch2_2.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch2_3 {
-  background-image: url("../img/ch2_3.jpg");
+  background-image: url("../img/bespoke/ch2_3.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch2_4 {
-  background-image: url("../img/ch2_4.jpg");
+  background-image: url("../img/bespoke/ch2_4.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch2_5 {
-  background-image: url("../img/ch2_5.jpg");
+  background-image: url("../img/bespoke/ch2_5.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .swiper-slide.ch3_0 {
-  background-image: url("../img/ch3_0.jpg");
+  background-image: url("../img/bespoke/ch3_0.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch3_1 {
-  background-image: url("../img/ch3_1.jpg");
+  background-image: url("../img/bespoke/ch3_1.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch3_2 {
-  background-image: url("../img/ch3_2.jpg");
+  background-image: url("../img/bespoke/ch3_2.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch3_3 {
-  background-image: url("../img/ch3_3.jpg");
+  background-image: url("../img/bespoke/ch3_3.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch3_4 {
-  background-image: url("../img/ch3_4.jpg");
+  background-image: url("../img/bespoke/ch3_4.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch3_5 {
-  background-image: url("../img/ch3_5.jpg");
+  background-image: url("../img/bespoke/ch3_5.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .swiper-slide.ch4_0 {
-  background-image: url("../img/ch4_0.jpg");
+  background-image: url("../img/bespoke/ch4_0.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch4_1 {
-  background-image: url("../img/ch4_1.jpg");
+  background-image: url("../img/bespoke/ch4_1.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch4_2 {
-  background-image: url("../img/ch4_2.jpg");
+  background-image: url("../img/bespoke/ch4_2.jpg");
   background-size: cover;
   background-position: top;
 }
 .swiper-slide.ch4_3 {
-  background-image: url("../img/ch4_3.jpg");
+  background-image: url("../img/bespoke/ch4_3.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch4_4 {
-  background-image: url("../img/ch4_4.jpg");
+  background-image: url("../img/bespoke/ch4_4.jpg");
   background-size: cover;
   background-position: center;
 }
 .swiper-slide.ch4_5 {
-  background-image: url("../img/ch4_5.jpg");
+  background-image: url("../img/bespoke/ch4_5.jpg");
   background-size: cover;
   background-position: center;
 }
