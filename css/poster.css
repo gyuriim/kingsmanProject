@@ -57,29 +57,28 @@
     transform: rotate(5turn);
   }
 }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 600;
-}
 
 .poster_text {
   margin: 300px 0 400px 0;
-  font-size: 100px;
+  font-family: 'Roboto';
+  font-weight: 600;
 }
 .marquee {
   border-bottom: 1px solid #efefef;
   color: #fefefe;
   font-size: var(--step-0);
-  height: calc(170px + 4rem);
+  height: calc(170px + 1rem);
   overflow: hidden;
   position: relative;
   width: 100vw;
 }
 
 .track {
+  display: flex;
+  align-items: center;
   height: 100%;
   overflow: hidden;
-  padding: 2rem 0;
+  padding: 0;
   position: absolute;
   transition: background-color 300ms ease, color 300ms ease;
   white-space: nowrap;
@@ -90,6 +89,7 @@ body {
   align-items: center;
   display: inline-flex;
   will-change: transform;
+  font-size: 100px;
 }
 .track .text.-r {
   -webkit-animation-name: marquee-r;
