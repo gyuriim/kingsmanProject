@@ -49,7 +49,9 @@
         font-size: 13px;
         transition: 1s;
     }
-    #main_text { height: 780px; transition: 1s; }
+    #main_text { height: 780px; transition: 1s; }    
+
+
 }
 
 
@@ -83,6 +85,42 @@
         transition: 1s;
     }
     #main_text { height: 580px; transition: 1s; }
+
+    .item2 {
+        display: inline-block;
+        padding: 20px;
+    }
+
+    .last_item2 {
+        display: none;
+    }
+    .item2:nth-of-type(4n+1) {
+        transform: scale(0.8, 0.8) rotate(-5deg);
+        transition: all 0.35s;
+    }
+    .item2:nth-of-type(4n+2) {
+        transform: scale(0.8, 0.8) rotate(5deg);
+        transition: all 0.35s;
+    }
+    
+    .item2:nth-of-type(4n+4) {
+        transform: scale(0.8, 0.8) rotate(6deg);
+        transition: all 0.35s;
+    }
+    .item2:nth-of-type(4n+3) {
+        transform: scale(0.8, 0.8) rotate(-5deg);
+        transition: all 0.35s;
+    }
+    #main_timeline .year {
+        font-size: 45px;
+    }
+    #main_timeline .year_text {
+        font-size: 14px;
+    }
+    .circle_three{
+        margin-top: 25px;
+    }
+        
 }
 
 
@@ -145,7 +183,26 @@
         width: 90%;
         height: 182vw;
     }
-    
+    .item {
+        display: inline-block;
+        margin: 50px;
+    }
+    .item2 {
+        display: inline-block;
+        padding: 20px;
+    }
+    .last_item2 {
+        display: none;
+    }
+    .year {
+        font-size: 30px;
+    }
+    .year_text {
+        font-size: 15px;
+    }
+    .timeline_box {
+        margin-left:50px;
+    }
     
     
 }
