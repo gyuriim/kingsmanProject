@@ -58,18 +58,18 @@
 }
 
 .ms--images .ms-slide:nth-child(1) .ms-slide__image {
-  background-image: url("https://i.pinimg.com/564x/64/5d/8a/645d8a6afbe2865e09fb4fd48c569ed5.jpg");
+  background-image: url("../img/member/01.jpg");
 
 }
 
 .ms--images .ms-slide:nth-child(2) .ms-slide__image {
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1014/899/712/movie-kingsman-the-secret-service-taron-egerton-wallpaper-preview.jpg");
+  background-image: url("../img/member/02.jpg");
 }
 .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-  background-image: url("../image/Arthur-member.jpg");
+  background-image: url("../img/member/03.jpg");
 }
 .ms--images .ms-slide:nth-child(4) .ms-slide__image {
-  background-image: url("../image/member.jpg");
+  background-image: url("../img/member/05.jpg");
 }
 .ms--images .ms-slide__image-container {
   width: 100%;
