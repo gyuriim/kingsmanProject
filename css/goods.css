@@ -16,7 +16,7 @@ body {
   width: 100%;
   height: 600vh;
   font-family: 'Kaisei HarunoUmi', sans-serif;  
-  background-color: #e34f37;
+  background-color: rgb(8, 77, 59);
   color: white;
   overflow-y: scroll;
 }
