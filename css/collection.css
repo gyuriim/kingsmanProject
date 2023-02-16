@@ -305,7 +305,7 @@ main {
     padding: 10px 0px;
   }
 
-  .accordionHeader h2 {
+  .accordion-title {
     transform: rotate(-360deg);
   }
   .accordionContent.active {
@@ -369,7 +369,7 @@ main {
     flex-direction: column;
     align-items: center;
   }
-  .accordionHeader h2 {
+  .accordion-title {
     transform: rotate(-360deg);
     font-size: 20px;
   }
@@ -451,7 +451,7 @@ main {
     flex-direction: column;
     align-items: center;
   }
-  .accordionHeader h2 {
+  .accordion-title {
     transform: rotate(-360deg);
     font-size: 18px;
   }

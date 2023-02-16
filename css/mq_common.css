@@ -53,31 +53,43 @@
 
 @media (max-width: 1024px) {
   /*헤더*/
-  #header #logo {
-    margin-left: 50px;
-    transition: all 1s;
-  }
-  #header #mini_logo {
-    margin-left: 50px;
+  #header {
+    height: 70px;
     transition: all 1s;
   }
   .menu {
-    margin-right: 0px;
+    display: none;
   }
-  nav > ul > li a {
-    margin-right: 50px;
-    font-size: 14px;
-    transition: all .5s;
+  #header #logo {
+    display: none;
+    margin-left: 50px;
   }
-  nav > ul ul > li > a {
-    font-size: 12px;
-    transition: all .5s;
+  #header #mini_logo {
+    display: block;
+    margin-left: 50px;
+    transition: all 1s;
+  }
+
+  /*햄버거*/
+  .hamberger {
+    display: block;
+  }
+
+  /*상단배너*/
+  #banner .photo {
+    height: 800px;
+    transition: all 0.5s;
+  }
+  #banner .photo .photo_text {
+    font-size: 30px;
+    transition: all 0.5s;
   }
 
   /*푸터*/
   #footer .top_footer {
     margin: 0 50px;
     transition: all 0.5s;
+    margin-top: 50px;
   }
   #footer .top_footer_reservation {
     margin: 0px;
@@ -126,8 +138,20 @@
     display: block;
   }
 
+  /*상단배너*/
+  #banner .photo {
+    height: 700px;
+    transition: all 0.5s;
+  }
+  #banner .photo .photo_text {
+    font-size: 25px;
+    transition: all 0.5s;
+  }
+
+    
   /*푸터*/
   #footer .top_footer {
+    margin-top: 100px;
     display: block;
     height: 100%;
   }
@@ -139,8 +163,12 @@
     letter-spacing: -2px;
     margin: 0 auto;
   }
-  #footer .top_footer_reservation_text .mfy{
+  #footer .top_footer_reservation_text .mfy {
     margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .jfy{
+    margin-bottom: 50px;
   }
 
   /*인풋창*/
