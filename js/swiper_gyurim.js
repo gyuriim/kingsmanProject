@@ -45,7 +45,7 @@
         slidesPerView: 1.5,
         spaceBetween: 80,
         freeMode: true,
-        speed : 5000,
+        speed : 10000,
 
         autoplay: {
           delay: 0,
@@ -62,7 +62,7 @@
       slidesPerView: 2,
       spaceBetween: 440,
       freeMode: true,
-      speed : 5000,
+      speed : 8000,
 
       autoplay: {
         delay: 0, 
@@ -80,7 +80,7 @@
       slidesPerView: 1.5,
       spaceBetween: 80,
       freeMode: true,
-      speed : 5000,
+      speed : 10000,
 
       autoplay: {
         delay: 0,

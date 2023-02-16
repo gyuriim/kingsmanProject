@@ -13,6 +13,14 @@ a { text-decoration: none; cursor: pointer; }
 	width: 250px;
 	height: 250px;
 }
+.bullet_05 img {
+	width: 200px;
+	height: 200px;
+}
+.bullet_06 img {
+	width: 230px;
+	height: 230px;
+}
 .bullet_01 {
 	opacity: 0;
     animation: scale-up-center 1s forwards;
@@ -81,6 +89,7 @@ a { text-decoration: none; cursor: pointer; }
     color: transparent;
     -webkit-background-clip: text;
 	
+	font-weight: 800;
 	font-family: 'Gmarket Sans light', sans-serif;
 	letter-spacing: 10px;
 	font-size: 40px;
@@ -95,6 +104,7 @@ a { text-decoration: none; cursor: pointer; }
 }
 .lending_text .go_bnt_text {
 	/* border: 1px solid #b3b3b3; */
+	font-weight: 400;
 	text-decoration: underline;
 	font-family: 'noto sans kr', sans-serif;
 	color: #6d6b6a;
@@ -104,7 +114,7 @@ a { text-decoration: none; cursor: pointer; }
 
 	position: absolute;
 	left: 350px;
-	top: 100px;
+	top: 70px;
 }
 .lending_text .go_bnt_text:hover {
 	color: black;
