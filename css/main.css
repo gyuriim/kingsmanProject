@@ -14,8 +14,8 @@
 #main_video { float: left; width: 100%; height: 100%;}
 #main_collection { display: flex; align-items: center; justify-content: center;
     width: 100%; height: 100%;}
-#main_goods-poster { width: 100%; height: 100%; margin-bottom: 200px;}
-#main_insta{ float: left; width: 100%; height: 100%;}
+#main_goods-poster { float: left; width: 100%; height: 100%; margin-bottom: 200px;}
+#main_insta{ float: left; margin-top: 200px; width: 100%; height: 100%;}
 
 
 
@@ -284,6 +284,15 @@ section#main_timeline li div.left {
 }
 
 /* 굿즈랑 포스터*/
+.goods-text {
+    border-top: 1px solid #d4d1c2;
+    border-bottom: 1px solid #d4d1c2;
+    font-size: 100px;
+    color: #bea264;
+}
+.goods-item-box_01 {
+    margin: 200px 0;
+}
 #goods-poster > img {
     width: 100%;
     height: auto;

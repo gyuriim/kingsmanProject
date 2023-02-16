@@ -203,7 +203,17 @@
     .timeline_box {
         margin-left:50px;
     }
-    
+    .goods-text {
+        font-size: 70px;
+        color: #bea264;
+    }
+    .goods-item-box {
+       margin-top: 150px;
+    }
+    .goods-item-box_01 {
+        margin: 100px 0;
+    }
+    #main_insta{ float: left; margin-top: 0px;}
     
 }
 
