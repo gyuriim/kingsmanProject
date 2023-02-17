@@ -1,11 +1,35 @@
+/* 버튼 */
+.btn {
+  width: 200px;
+  height: 80px;
+  position: relative;
+  margin: 200px auto 0;
+  margin-bottom: 100px;
+  border: 1px solid #c1ff1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c1ff1d;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+.btn:hover {
+  color: #000;
+  border: 1px solid #f8ffe5;
+  text-decoration: none;
+  transition: 0.7s;
+  box-shadow: 12.5rem 0 0 0 #f8ffe5 inset;
+  font-family: "Roboto", sans-serif;
+}
 :root {
   --columns: 3;
 }
 
 :root {
   --step--2: clamp(3.13rem, 2.62rem + 2.51vw, 5.76rem);
-  --step--1: clamp(3.75rem, 3.09rem + 3.29vw, 7.20rem);
-  --step-0: clamp(4.50rem, 3.64rem + 4.29vw, 9.00rem);
+  --step--1: clamp(3.75rem, 3.09rem + 3.29vw, 7.2rem);
+  --step-0: clamp(4.5rem, 3.64rem + 4.29vw, 9rem);
 }
 
 @-webkit-keyframes marquee {
@@ -60,7 +84,7 @@
 
 .poster_text {
   margin: 300px 0 400px 0;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 600;
 }
 .marquee1 {
@@ -83,7 +107,6 @@
   width: 100vw;
 }
 
-
 .track {
   display: flex;
   align-items: center;
@@ -96,7 +119,7 @@
 }
 .track .text {
   -webkit-animation: marquee 50000ms linear infinite;
-          animation: marquee 50000ms linear infinite;
+  animation: marquee 50000ms linear infinite;
   align-items: center;
   display: inline-flex;
   will-change: transform;
@@ -104,28 +127,25 @@
 }
 .track .text.-r {
   -webkit-animation-name: marquee-r;
-          animation-name: marquee-r;
+  animation-name: marquee-r;
 }
 .track .text.-twox {
   -webkit-animation-duration: 50000ms;
-          animation-duration: 50000ms;
+  animation-duration: 50000ms;
 }
 .track:hover {
   background-color: #efefef;
-  color: #1A1F24;
+  color: #1a1f24;
 }
 .track:hover .-green {
-  color: #BEB9A3;
+  color: #beb9a3;
 }
 
 .-green {
-  color: #C1FF1D;
+  color: #c1ff1d;
   font-weight: 900;
 }
 /*-----------------------------------------*/
-
-
-
 
 .poster {
   display: grid;
@@ -213,8 +233,6 @@
   background-color: #ff5291;
   background: conic-gradient(#068d7e 75%, #ff5291 0) 0 0 /180% 180%;
 }
-
-
 
 .poster > li img {
   position: absolute;

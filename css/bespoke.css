@@ -371,15 +371,15 @@ footer {
     align-items: flex-start;
   }
   .page>.imagebox>.titlebox>.title {
-    font-size: 21.8750vw;
+    font-size: 13vw;
   }
   .page>.imagebox>.titlebox>.t1 {
     top: 0vw;
-    left: 3vw;
+    left: 20vw;
   }
   .page>.imagebox>.titlebox>.t2 {
     top: 0vw;
-    left: 16vw;
+    left: 30vw;
   }
   .page>.imagebox>.imgbox {
     width: 100%;
